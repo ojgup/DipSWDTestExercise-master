@@ -21,5 +21,29 @@ namespace DipTestingExercisesTests
             Assert.AreEqual(50, FakeMotorVehicle.currentFuel);
             Assert.AreEqual(2, FakeMotorVehicle.litresPerKM);
         }
+
+        [Test]
+        public void getFuelRemaining()
+        {
+            // Act 
+            int fuelRemaining = FakeMotorVehicle.getFuelRemaining();
+            // Assert 
+            Assert.AreEqual(50, fuelRemaining);
+        }
+
+        [Test]
+        [TestCase(50)]
+        [TestCase(51)]
+        [TestCase()]
+        public void refuel(int fuel, )
+        {
+            //Arrange
+
+            //Act
+            FakeMotorVehicle.refuel(fuel);
+            //Assert
+            Assert.AreEqual(100, FakeMotorVehicle.currentFuel);
+            Assert.AreEqual()
+        }
     }
 }

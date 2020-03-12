@@ -5,10 +5,16 @@ using DipTestingExercises;
 
 namespace DipTestingExercisesTests
 {
-    class FakePassenger : Passenger
+    class FakePassenger : IPerson
     {
-        public FakePassenger(string pFname, string pLname, string pGender, string pTicketType) : base(pFname, pLname, pGender, pTicketType)
+        public string getGender()
         {
+            throw new NotImplementedException();
+        }
+
+        public string getName()
+        {
+            throw new NotImplementedException();
         }
     }
 }

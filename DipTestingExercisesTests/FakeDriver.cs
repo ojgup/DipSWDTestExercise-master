@@ -4,10 +4,16 @@ using System.Text;
 using DipTestingExercises;
 namespace DipTestingExercisesTests
 {
-    class FakeDriver : Driver
+    class FakeDriver : IPerson
     {
-        public FakeDriver(string pFname, string pLname, string pGender, string pLicence) : base(pFname, pLname, pGender, pLicence)
+        public string getGender()
         {
+            throw new NotImplementedException();
+        }
+
+        public string getName()
+        {
+            throw new NotImplementedException();
         }
     }
 }

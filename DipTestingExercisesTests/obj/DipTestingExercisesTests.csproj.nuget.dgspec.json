@@ -1,37 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj": {}
+    "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj": {
+    "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj",
+        "projectUniqueName": "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj",
         "projectName": "DipTestingExercisesTests",
-        "projectPath": "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj",
-        "packagesPath": "C:\\Users\\Ojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\obj\\",
+        "projectPath": "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\DipTestingExercisesTests.csproj",
+        "packagesPath": "C:\\Users\\102542177\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercisesTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\102542177\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj": {
-                "projectPath": "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj"
+              "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj": {
+                "projectPath": "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj"
               }
             }
           }
@@ -73,16 +74,16 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj": {
+    "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj",
+        "projectUniqueName": "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj",
         "projectName": "DipTestingExercises",
-        "projectPath": "C:\\Users\\Ojas\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj"
+        "projectPath": "C:\\Users\\102542177\\Documents\\GitHub\\DipSWDTestExercise-master\\DipTestingExercises\\DipTestingExercises.csproj"
       },
       "frameworks": {
         "net452": {}

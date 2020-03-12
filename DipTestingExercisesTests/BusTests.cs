@@ -6,13 +6,22 @@ namespace DipTestingExercisesTests
 {
     class BusTests
     {
-        FakeBus FakeBus;
-        FakeDriver FakeDriver;
+        Bus _bus;
+        FakeDriver _driver;
+        FakePassenger _passenger;
 
         [SetUp]
         public void Setup()
         {
-            FakeBus = new FakeBus(FakeDriver, 100, 50, 2, 1);
+            _driver = new FakeDriver();
+            _passenger = new FakePassenger();
+            _bus = new FakeBus(_driver, 100, 50, 2, 1);
+        }
+
+        [Test]
+        public void checkConstructor()
+        {
+            Assert.AreEqual(,);
         }
     }
 }

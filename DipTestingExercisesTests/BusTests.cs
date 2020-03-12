@@ -58,7 +58,9 @@ namespace DipTestingExercisesTests
             {
                 Console.WriteLine(ex.Message);
                 Assert.AreEqual(1, _bus.getPassengerCount());
-                Assert.AreEqual("Bus is Already Full!", ex.Message);
+
+                Assert.IsTrue(ex.Message.Contains("Bus"));
+                Assert.IsTrue(ex.Message.Contains("Full"));
             }
 
         }

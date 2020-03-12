@@ -80,7 +80,7 @@ namespace DipTestingExercisesTests
 
             } catch(Exception ex)
             {
-                Assert.AreEqual("0 litres of fuel remaining.", FakeMotorVehicle.getFuelRemaining());
+                Assert.AreEqual("Out of Fuel!", ex.Message);
             }
         }
     }
